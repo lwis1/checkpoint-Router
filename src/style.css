@@ -1,0 +1,59 @@
+form{
+    text-align: center;
+    margin-top:20px;
+    clear: both;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content:center ;
+    
+}
+.desc{
+    margin-top:20px;
+    text-align: center;
+}
+.desc h1{
+    color:burlywood
+}
+.desc iframe{
+    border: 5px solid grey;
+}
+.desc button{
+    margin-top: 20px;
+    background-color:green;
+    display: block;
+    width: 80px;
+    border:none;
+    border-radius:5px;
+    padding:5px 15px;
+    color:#fff
+}
+
+#add input,button:nth-of-type(odd){
+    display: block;
+    width: 400px;
+    margin:5px auto;
+    
+}
+#add button:nth-of-type(odd){
+    margin-bottom: 50px;
+    background-color: black;
+    color: #fff;
+}
+#add button:nth-of-type(even){
+    margin-bottom: 50px;
+    background-color:green;
+    color: #fff;
+}
+.App a.link{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(230, 53, 53);
+    display: block;
+    width: 200px;
+    margin:10px auto;
+    text-align: center;
+    padding: 10px;
+}
